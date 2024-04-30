@@ -28,7 +28,7 @@ Fortran Structure Extractor parses Fortran 90 source files and generates a corre
   - **Python Modules**:
     - antlr4: Lexer and parser generator used for parsing Fortran 90 source files.
       ```bash
-      pip install antlr4-python3-runtime
+      pip3 install antlr4-python3-runtime
       ```
 - **Graphviz**: Tool for visualizing DOT files as graphs, can be used with Visual Studio Code.
   - Install Graphviz: [Download and installation instructions](https://graphviz.org/download/)
