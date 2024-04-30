@@ -32,7 +32,7 @@ Fortran Structure Extractor parses Fortran 90 source files and generates a corre
       ```
 - **Graphviz**: Tool for visualizing DOT files as graphs, can be used with Visual Studio Code.
   - Install Graphviz: [Download and installation instructions](https://graphviz.org/download/)
-  - **GraphViz Extension**
+  - **GraphViz VS Code Extension**
     - Graphviz Interactive Preview: A VSCode extension that provides syntax highlighting, snippets, and an interactive, zoom-, pan- and searchable, live preview with edge tracing for graphs in Graphviz / dot format.
 
 ## How to Use
