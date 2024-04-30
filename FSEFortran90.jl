@@ -170,6 +170,7 @@ try
     # Writing content to the output file
     write(f, dotRepresentation)
   end
+  println("DOT file created successfully at: ", outputFilePath)
 # Handling unexpected errors
 catch e
   println("An unexpected error occurred:", e)
