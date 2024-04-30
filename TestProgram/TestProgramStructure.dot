@@ -1,0 +1,31 @@
+digraph ProgramTree {
+  "TestProgram.f90" [shape=box, style=filled, fillcolor="white"];
+  "m1" [shape=parallelogram, style=filled, fillcolor="green"];
+  "m1s1" [shape=octagon, style=filled, fillcolor="orange"];
+  "m1s2" [shape=octagon, style=filled, fillcolor="orange"];
+  "m2" [shape=parallelogram, style=filled, fillcolor="green"];
+  "m2if1" [shape=pentagon, style=filled, fillcolor="purple"];
+  "m2if2" [shape=pentagon, style=filled, fillcolor="purple"];
+  "m3" [shape=parallelogram, style=filled, fillcolor="green"];
+  "m1f1" [shape=hexagon, style=filled, fillcolor="yellow"];
+  "s1" [shape=octagon, style=filled, fillcolor="orange"];
+  "mp" [shape=diamond, style=filled, fillcolor="blue"];
+  "mpif1" [shape=pentagon, style=filled, fillcolor="purple"];
+  "mpis1" [shape=septagon, style=filled, fillcolor="pink"];
+  "mps1" [shape=octagon, style=filled, fillcolor="orange"];
+  "mps1s1" [shape=octagon, style=filled, fillcolor="orange"];
+  "TestProgram.f90" -> "m1";
+  "m1" -> "m1s1";
+  "m1" -> "m1s2";
+  "TestProgram.f90" -> "m2";
+  "m2" -> "m2if1";
+  "m2" -> "m2if2";
+  "TestProgram.f90" -> "m3";
+  "m3" -> "m1f1";
+  "TestProgram.f90" -> "s1";
+  "TestProgram.f90" -> "mp";
+  "mp" -> "mpif1";
+  "mp" -> "mpis1";
+  "mp" -> "mps1";
+  "mp" -> "mps1s1";
+}
