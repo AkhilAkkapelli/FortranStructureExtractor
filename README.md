@@ -41,7 +41,7 @@ Fortran Structure Extractor parses Fortran 90 source files and generates a corre
 3. **Navigate to Repository Directory**: Open a terminal and navigate to the directory where the repository is cloned.
 4. **Run the Program**: Execute the program by running on example program.
    ```bash
-   julia FSEFortran90.jl TestProgram/TestProgram.f90 TestProgram/TestProgram.f90 TestProgram/TestProgramStructure.dot
+   julia FSEFortran90.jl TestProgram/TestProgram.f90 TestProgram/TestProgramStructure.dot
 5. **Visualize the Program Tree**: Use graph visualization tools like Graphviz/VSCode to visualize the generated DOT file, representing the program's structure.
 
 ## License
